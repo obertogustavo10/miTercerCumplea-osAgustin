@@ -1,0 +1,43 @@
+
+ .background-image {
+  background-image: url('../src/assets/tirex-tim.png'); /* Reemplaza con la ruta de tu imagen */
+  background-size: 100%; /* Ajusta el tamaño de la imagen al contenedor */
+  background-position: center;
+  background-repeat: no-repeat; /* Coloca la imagen en el centro */
+  height: 100vh;
+}
+.button{
+  background: transparent; 
+  border-color: 1px solid #252525;
+  color: #252525;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  border: solid 1px #252525;
+  font-weight: 500;
+  
+}
+.button:hover{
+  background: #252525; 
+  border-color: 1px solid #fff;
+  color: #fff;
+  }
+
+
+
+  
+  @keyframes moveHorizontally {
+    0% {
+      transform: translateX(-50px);
+    }
+    100% {
+      transform: translateX(100px);
+    }
+  }
+  
+  .dino-move {
+    animation: moveHorizontally 3s linear infinite;
+  }
+  
+  
+  
